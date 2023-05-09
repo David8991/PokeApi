@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeapiapps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info-hover">I</div>
+    <div class="info">
+        <h2>Добро пожаловать на Pokeapi!!!</h2>
+        <p>
+            Воспользуйтесь кнопками "&larr;" чтобы листать назад, 
+            "&rarr;" чтобы листать вперед и "ENTER" чтобы отправить запрос!
+        </p>
+    </div>
+    <div id="next" class="hidden">
+        <img src="images/arrow.png" alt="next">
+    </div>
+    <div id="last" class="hidden">
+        <img src="images/arrow.png" alt="last">
+    </div>
+    <label for="text">
+        <p>Введите название покемона Eanglish буквами, либо введите число от 1 - 1010 !!!</p>
+        <input type="text" name="text" id="text">
+    </label>
+    <button id="search">Search</button>
+    <div id="container" class="hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
